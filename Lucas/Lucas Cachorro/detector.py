@@ -3,7 +3,7 @@ import numpy as np
 
 def detectar_rosto_cachorro(imagem):
     # Carrega o classificador pré-treinado para detecção de faces de cachorros
-    classificador_cachorro = cv2.CascadeClassifier('dogs.xml')
+    classificador_cachorro = cv2.CascadeClassifier('dog2.xml')
     
     # Converte a imagem em escala de cinza
     imagem_cinza = cv2.cvtColor(imagem, cv2.COLOR_BGR2GRAY)

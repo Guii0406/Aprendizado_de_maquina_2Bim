@@ -1,0 +1,5 @@
+Na pasta "Detector de cachorro" tem a minha tentativa.
+Na pasta tem o arquivo "DetectorCachorro.py" que é o codigo em python para identificar as faces.
+"mydogdetector.xml" e "mary3.xml" são os arquivos que usei para treinamento.
+"CachorroAleatorio" é uma foto para verificar se a IA reconhece um cachorro aleatório.
+"FotoMaryNaoTreinada.bmp" e "FotoMaryTreinada.bmp" são fotos da cachorrinha do professor, uma foi treinada no xml e a outra não.

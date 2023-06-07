@@ -1,4 +1,1 @@
-TreinoHaar.zip é o arquivo que pode ser utilizado para fazer o próprio XML.
-Na pasta "Lucas Cachorro" tem os xmls: dogs.xml dog2.xml.
-dogs.xml foi feito por mim com o TreinoHaar.zip
-dog2.xml que peguei do repositório : https://github.com/Adnaninho/Humans-Cats-and-Dogs-detector, desse video https://www.youtube.com/watch?v=POSYDLcspIk&ab_channel=AdnanAlmnini
+Tudo está na pasta "Tentativa".

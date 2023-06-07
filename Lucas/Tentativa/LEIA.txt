@@ -3,3 +3,6 @@ Na pasta tem o arquivo "DetectorCachorro.py" que é o codigo em python para iden
 "mydogdetector.xml" e "mary3.xml" são os arquivos que usei para treinamento.
 "CachorroAleatorio" é uma foto para verificar se a IA reconhece um cachorro aleatório.
 "FotoMaryNaoTreinada.bmp" e "FotoMaryTreinada.bmp" são fotos da cachorrinha do professor, uma foi treinada no xml e a outra não.
+
+Link: https://www.youtube.com/watch?v=POSYDLcspIk&ab_channel=AdnanAlmnini
+https://github.com/Adnaninho/Humans-Cats-and-Dogs-detector

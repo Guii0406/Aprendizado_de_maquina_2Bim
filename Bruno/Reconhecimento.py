@@ -3,11 +3,12 @@ import cv2
 from matplotlib import pyplot as plt
   
 # Carrega a imagem para identificar o cão
-img = cv2.imread('D:\\Importante\\2023 - 2\\Trabalho IA - 2\\dog2.jpeg')
+img = cv2.imread('D:\\Importante\\2023 - 2\\Trabalho IA - 2\\Mary\\Mary.bmp')
   
 # Deixa a imagem cinza e realiza o resize 
-gray_img = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
-face = cv2.resize(gray_img, (400, 300))
+# gray_img
+face = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
+# face = cv2.resize(gray_img, (700, 600))
   
 # Carrega o xml com o treinamento
 haar_cascade = cv2.CascadeClassifier('D:\\Importante\\2023 - 2\\Trabalho IA - 2\\mydogdetector.xml')
@@ -21,8 +22,8 @@ faces_rect1 = haar_cascade2.detectMultiScale(face, 1.375, 5, 75)
   
 # Marca o cão 
 for (x, y, w, h) in faces_rect:
-        cv2.rectangle(face, (x, y), (x+w, y+h), (0, 255, 0), 2)
-        cv2.putText(face,'Cachorro',(x,y),font, 0.9, (0, 255, 0), 2)
+       cv2.rectangle(face, (x, y), (x+w, y+h), (0, 255, 0), 2)
+       cv2.putText(face,'Cachorro',(x,y),font, 0.9, (0, 255, 0), 2)
         
 for(x, y, w, h) in faces_rect1:
 	face=cv2.rectangle(face,(x,y),(x+w, y+h), (255, 0, 0), 2)
